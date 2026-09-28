@@ -1,0 +1,252 @@
+/*font-family: 'Mochiy Pop One'*/
+
+
+@font-face {
+    font-family: homa;
+    src: url("../fonts/BHoma.ttf") format("truetype"),
+        url("../fonts/IHoma.ttf") format("woff");
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: rgba(208, 216, 255, 0.5);
+    margin: 15px 50px;
+    font-family: homa;
+}
+
+.header {
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.6);
+    border-radius: 15px;
+    background-color: rgba(208, 216, 255, 0.5);
+}
+
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 75px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+}
+
+.logo h3 {
+    margin-left: 15px;
+    margin-top: 17px;
+    color: rgb(3, 3, 61);
+}
+
+
+.nav {
+    display: flex;
+    gap: 25px;
+    margin: 17px 0px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(3, 3, 60);
+    font-size: 14px;
+}
+
+.header a :hover {
+    width: 100px;
+    height: 35px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+
+.home button {
+    position:absolute;
+    margin-top: -50px;
+    left: 0px;
+    margin-left: -50px;
+    width: 100px;
+    height: 45px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    border-radius: 3px 30px 30px 3px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-family: homa;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.back button {
+    margin-top: 0px;
+    position: fixed;
+    left: 0px;
+    width: 100px;
+    height: 45px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    border-radius: 3px 30px 30px 3px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-family: homa;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.home :hover,
+.back :hover {
+    font-size: 20px;
+}
+
+.main {
+    margin-top: 50px;
+    position: relative;
+}
+
+.main h3 {
+    font-size: 22px;
+    margin: 15px 25px;
+}
+
+
+.item {
+    width: 270px;
+    height: 270px;
+    margin: 75px 0px;
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.6);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.type {
+    margin: 150px 0px;
+}
+
+
+
+.box1,
+.box2,
+.box4,
+.box5,
+.box7,
+.box8,
+.box10,
+.box11,
+.box13,
+.box14,
+.box16,
+.box17,
+.box19,
+.box20,
+.box21,
+.box23,
+.box25,
+.box26,
+.box28,
+.box29,
+.box31,
+.box32,
+.box33,
+.box34,
+.box36,
+.box37,
+.box39,
+.box40,
+.box42,
+.box43,
+.box44,
+.box46,
+.box47,
+.box48,
+.box50,
+.box51,
+.box53,
+.box54,
+.box56,
+.box57,
+.box59,
+.box60,
+.box62,
+.box63,
+.box65,
+.box66,
+.box67,
+.box68,
+.box70 {
+    margin-left: 100px;
+}
+
+.box1,
+.box4,
+.box7,
+.box10,
+.box13,
+.box16,
+.box19,
+.box20,
+.box23,
+.box25,
+.box28,
+.box31,
+.box33,
+.box36,
+.box39,
+.box42,
+.box43,
+.box46,
+.box47,
+.box50,
+.box53,
+.box56,
+.box59,
+.box62,
+.box65,
+.box67,
+.box70 {
+    margin-right: 25px;
+}
+
+.item img {
+    height: 250px;
+    margin-top: -75px;
+    margin-right: -45px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.6);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.item h5 {
+    font-family: 'Mochiy Pop One';
+    text-align: left;
+}
+
+.box24 {
+    font-family: 'Mochiy Pop One';
+}

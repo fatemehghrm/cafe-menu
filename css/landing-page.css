@@ -1,0 +1,97 @@
+/*font-family: 'Mochiy Pop One'*/
+
+@font-face {
+    font-family: homa;
+    src: url("../fonts/BHoma.ttf") format("truetype"),
+        url("../fonts/IHoma.ttf") format("woff");
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body {
+    background-color: rgb(208, 216, 255);
+    margin: 15px 50px;
+    font-family: homa;
+}
+
+.logo {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+}
+
+.logo img {
+    width: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.4);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+}
+
+.logo h3 {
+    margin-left: 15px;
+    margin-top: 10px;
+    color: rgb(3, 3, 61);
+}
+
+.continer {
+    margin: 50px 0px;
+    display: flex;
+    gap: 25px;
+}
+
+.continer img {
+    width: 30%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.6);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav {
+    display: flex;
+    margin: 50px 0px;
+    align-items: center;
+    gap: 25px;
+    margin-left: 40%;
+}
+
+.nav button {
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.6);
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family: homa;
+    color: rgb(3, 3, 60);
+    font-size: 18px;
+}
+
+a :hover {
+    font-size: 22px;
+}
+
+.nav :hover button {
+    width: 120px;
+    height: 60px;
+}
+
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(2, 2, 4, 0.6);
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+}
