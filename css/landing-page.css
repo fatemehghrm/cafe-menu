@@ -42,13 +42,13 @@ body {
     color: rgb(3, 3, 61);
 }
 
-.continer {
+continer {
     margin: 50px 0px;
     display: flex;
     gap: 25px;
 }
 
-.continer img {
+continer img {
     width: 30%;
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 40px rgba(2, 2, 4, 0.6);
@@ -56,7 +56,7 @@ body {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.nav {
+nav {
     display: flex;
     margin: 50px 0px;
     align-items: center;
@@ -64,7 +64,7 @@ body {
     margin-left: 40%;
 }
 
-.nav button {
+nav button {
     width: 100px;
     height: 50px;
     border: 2px solid rgba(255, 255, 255, 0.1);
@@ -80,18 +80,7 @@ a :hover {
     font-size: 22px;
 }
 
-.nav :hover button {
+nav :hover button {
     width: 120px;
     height: 60px;
-}
-
-.footer {
-    margin-top: 150px;
-    width: 100%;
-    height: 300px;
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 40px rgba(2, 2, 4, 0.6);
-    border-radius: 50px;
-    background-color: rgba(255, 255, 255, 0.1);
-
 }
